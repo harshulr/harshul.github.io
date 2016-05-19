@@ -99,35 +99,35 @@ var DATA = "%data%", bio = {
 				dates : "Feb 2016 - May 2016",
 				url : "",
 				description : "Basic search engine built using concepts of cosine similarity, term proximity and relevance feedback. Query and document similarity is computed and documents with higher similarity are given as result. Developed using Java",
-				images : [ "images/linespace.png" ]
+				images : [ "images/linespace.PNG" ]
 			},
 			{
 				title : "Comparison of two decision tree generating algorithms: C4.5 and CART based on testing datasets with missing attribute values",
 				dates : "Jan 2016 - May 2016",
 				url : "",
 				description : "Performance was carried on C4.5R8 and SPM CART. Comparative analysis is carried out in terms of training and testing accuracies and complexity (size and depth) of the decision tree generated. Wilcoxon test was done to determine statistical significance of the results on both the algorithms",
-				images : ["images/linespace.png"]
+				images : ["images/linespace.PNG"]
 			},
 			{
 				title : "Online Shopping Cart",
 				dates : "Feb 2015 - May 2015",
 				url : "",
 				description : "E-commerce application for buying products based on departments. Developed using PHP and MySQL",
-				images : [ "images/linespace.png" ]
+				images : [ "images/linespace.PNG" ]
 			},
 			{
 				title : "Toxicity Prediction of Chemicals",
 				dates : "September 2014 - December 2014",
 				url : "",
 				description : "Conducted experiments using different machine lerning algorithms. Build odels and evaluated relative performance of the algorithms. Used Weka tool to conduct experiments",
-				images : [ "images/linespace.png" ]
+				images : [ "images/linespace.PNG" ]
 			},
 			{
 				title : "Intrusion Detection using Classification",
 				dates : "Jan 2014 - May 2014",
 				url : "",
 				description : "Build models to detect attacks on the inter-connected network with 97% accuracy. Used C4.5 algorithm to generate the model from existing knowledge base of attacks",
-				images : [ "images/linespace.png" ]
+				images : [ "images/linespace.PNG" ]
 			}],
 	display : function() {
 		for ( var a in projects.project) {
@@ -149,3 +149,7 @@ var DATA = "%data%", bio = {
 		}
 	}
 };
+$(document).click(function(a) {
+	a.pageX, a.pageY
+}), bio.display(), work.display(), education.display(), projects.display(), $(
+		"#main"), $("#mapDiv").append(googleMap);
