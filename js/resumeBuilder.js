@@ -149,7 +149,3 @@ var DATA = "%data%", bio = {
 		}
 	}
 };
-$(document).click(function(a) {
-	a.pageX, a.pageY
-}), bio.display(), work.display(), education.display(), projects.display(), $(
-		"#main").append(internationalizeButton), $("#mapDiv").append(googleMap);
