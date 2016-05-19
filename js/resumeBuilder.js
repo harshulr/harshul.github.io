@@ -8,7 +8,7 @@ var DATA = "%data%", bio = {
 		Linkedin : "www.linkedin.com/in/harshulr",
 		location : "Lawrence, KS"
 	} ],
-	welcomeMessage : "I have done my Master's in Computer Science at University of Kansas. As a part of my Master's and Bachelor's programs, I have contributed to several projects in data science and web application using MySQL, Java, PHP, ASP.NET or DB2. I have also played leadership role in few of the projects. Apart from this, my internship at Intouch Solutions has introduced me to a professional work environment. My current student employment as a developer at University of Kansas has given me a chance to learn and improve my technical and problem solving skills.",
+	welcomeMessage : "I have done my Master's in Computer Science at University of Kansas.I have done internship at Intouch Solutions and I am currently working as Student Developer at University of Kansas.",
 	biopic : "images/me.jpg",
 	skills : [ "Java", "MySQL", "ASP.NET MVC",
 			"PHP", "JavaScript", "MS Access",
