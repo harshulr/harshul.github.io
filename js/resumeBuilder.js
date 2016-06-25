@@ -8,11 +8,11 @@ var DATA = "%data%", bio = {
 		Linkedin : "www.linkedin.com/in/harshulr",
 		location : "Lawrence, KS"
 	} ],
-	welcomeMessage : "I have done my Master's in Computer Science at University of Kansas.I have done internship at Intouch Solutions and I am currently working as Student Developer at University of Kansas.",
+	welcomeMessage : "I have done my Master's in Computer Science at University of Kansas. During my master's, I have worked for Intouch Solutions as Application Development Intern and University of Kansas as Student Developer.",
 	biopic : "images/me.jpg",
 	skills : [ "Java", "MySQL", "ASP.NET MVC",
 			"PHP", "JavaScript", "MS Access",
-			"HTML", "CSS", "Git", "TFS", "MS Visual Studio", "WAMP", "Responsive Email Templates" ],
+			"HTML", "CSS", "Git", "TFS", "MS Visual Studio", "WAMP", "Responsive Email Templates", "Android Development", "XML", "Android Studio", "Mobile Development" ],
 	display : function() {
 		var a = HTMLheaderName.replace(DATA, bio.name), b = HTMLheaderRole
 				.replace(DATA, bio.role), c = HTMLbioPic.replace(DATA,
@@ -68,7 +68,7 @@ var DATA = "%data%", bio = {
 				employer : "University of Kansas",
 				title : "Student Developer",
 				url : "https://odst.ku.edu/",
-				dates : "September 2015 - Present",
+				dates : "September 2015 - June 2016",
 				location : "1200 Sunnyside Avenue, 1002 Haworth Hall, Lawrence, Kansas",
 				description : "Developing and maintaining a website for Office for Diversity in Science Training (ODST). KU Updating and generating reports from a MS Access database. Migrated data from MS Access to MySQL. Technologies: PHP, MySQL, MS Access, JavaScript, HTML, CSS, WAMP"
 			},
@@ -94,6 +94,13 @@ var DATA = "%data%", bio = {
 	}
 }, projects = {
 	project : [
+			{
+				title : "Android Apps",
+				dates : "June 2016",
+				url : "https://github.com/harshulr",
+				description : "Developed a Connect4 and FlappyBird game using Android Studio. Link to the apps Connect4 - https://github.com/harshulr/Connect4, FlappyBird - https://github.com/harshulr/flappyBird",
+				images : [ "images/linespace.PNG" ]
+			},
 			{
 				title : "Search Engine",
 				dates : "Feb 2016 - May 2016",
