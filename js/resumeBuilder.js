@@ -3,7 +3,7 @@ var DATA = "%data%", bio = {
 	role : "Software Developer",
 	contacts : [ {
 		mobile : "(+1)703-980-7847",
-		email : "harshulr@gmail.com | harshul.routhu@ku.edu",
+		email : "harshulr@gmail.com | hrouthu@ku.edu",
 		Github : "harshulr",
 		Linkedin : "www.linkedin.com/in/harshulr",
 		location : "Lawrence, KS"
@@ -65,11 +65,19 @@ var DATA = "%data%", bio = {
 }, work = {
 	jobs : [
 			{
+                employer : "University of Kansas",
+                title : "Full Stack Web Developer",
+                url : "https://websupport.ku.edu/harshul-routhu",
+                dates : "September 2016 - Present",
+                location : "1425 Jayhawk Blvd, Lawrence, KS 66045",
+                description : "Technologies: Java, Spring Boot, Spring MVC, Postgresql, Git, Thymeleaf, Bootstrap, PHP"
+            },
+			{
 				employer : "University of Kansas",
 				title : "Student Developer",
 				url : "https://odst.ku.edu/",
 				dates : "September 2015 - June 2016",
-				location : "1200 Sunnyside Avenue, 1002 Haworth Hall, Lawrence, Kansas",
+				location : "1200 Sunnyside Avenue, 1002 Haworth Hall, Lawrence, KS",
 				description : "Developing and maintaining a website for Office for Diversity in Science Training (ODST). KU Updating and generating reports from a MS Access database. Migrated data from MS Access to MySQL. Technologies: PHP, MySQL, MS Access, JavaScript, HTML, CSS, WAMP"
 			},
 			{
