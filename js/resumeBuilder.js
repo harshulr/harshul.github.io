@@ -70,7 +70,7 @@ var DATA = "%data%", bio = {
                 url : "https://websupport.ku.edu/harshul-routhu",
                 dates : "September 2016 - Present",
                 location : "1425 Jayhawk Blvd, Lawrence, KS 66045",
-                description : "Technologies: Java, Spring Boot, Spring MVC, Postgresql, Git, Thymeleaf, Bootstrap, PHP"
+                description : "Working on site migration from PHP to PHP Symfony3. Developed a Java Spring Boot app with Thymeleaf template and  PostgreSQL. Maintaining applications in Java and PHP for KU Libraries. Using GIT for version controlling and JIRA for projects and issues tracking. Additional skills - Bootstrap, XSLT, Docker, Puppet."
             },
 			{
 				employer : "University of Kansas",
@@ -78,7 +78,7 @@ var DATA = "%data%", bio = {
 				url : "https://odst.ku.edu/",
 				dates : "September 2015 - June 2016",
 				location : "1200 Sunnyside Avenue, 1002 Haworth Hall, Lawrence, KS",
-				description : "Developing and maintaining a website for Office for Diversity in Science Training (ODST). KU Updating and generating reports from a MS Access database. Migrated data from MS Access to MySQL. Technologies: PHP, MySQL, MS Access, JavaScript, HTML, CSS, WAMP"
+				description : "Developed and Maintained KU-ODST application components. Updated and generated reports from MS Access database. Migrated MS Access database to MySQL database. Skills - PHP Symfony, GIT, WAMP, MySQL, MS Access."
 			},
 			{
 				employer : "Intouch Solutions",
